@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'Soft-red': 'hsl(7, 99 %, 70 %)',
+        'Soft-red': 'hsl(7, 99%, 70%)',
         'Yellow': 'hsl(51, 100%, 49%)',
         'Dark-desaturated-cyan': 'hsl(167, 40%, 24%) ',
         'Dark-blue': 'hsl(198, 62%, 26%)',
@@ -22,6 +22,10 @@ export default {
         'Barlow': ['Barlow', 'sans-serif'],
         'Fraunces': ['Fraunces', 'serif'],
       },
+      screens:{
+        'tablet': '700px',
+        'desktop': '1440px',
+      }
     },
   },
 plugins: [],
